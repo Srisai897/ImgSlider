@@ -1,0 +1,119 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  background-color: #e9c46a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.mainBox
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.slider
+{
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  width: 800px;
+}
+
+.imgBox
+{
+  border-radius: 7px;
+  border: 3px solid black;
+  flex:10;
+}
+
+img
+{
+  width: 100%;
+  height: 100%;
+}
+
+.prev, .next
+{
+  color: white;
+  background-color: #2a9d8f;
+  border-radius: 5px;
+  padding: 0.2rem 1rem;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  flex:1;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 150px;
+  cursor: pointer;
+  text-shadow: 3px 3px 7px black;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+  box-shadow: 0px 0px 5px 5px #334d4d;
+}
+
+.prev:hover
+{
+  transition-duration: 0.7s;
+}
+
+.prev:active
+{
+  box-shadow: 0px 0px 3px 3px #334d4d;
+}
+
+.next:hover
+{
+  transition-duration: 0.7s;
+}
+
+.next:active
+{
+  box-shadow: 0px 0px 3px 3px #334d4d;
+}
+
+.prev
+{
+  margin-right: 2rem;
+}
+
+.next
+{
+  margin-left: 2rem;
+}
+
+p
+{
+  text-align: center;
+  margin-top: 3rem;
+}
+
+p span
+{
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  color: #334d4d;
+}
+
+/* Image Number  */
+
+.num
+{
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 0px 0px 10px black;
+}
